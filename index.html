@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru" data-domain="happydiz.ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Diz</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="fonts/font-Mont.css">
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="/js/jqery.js"></script>
+    <script src='https://unpkg.com/splitting@1.0.6/dist/splitting.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <h1 data-splitting>Happy diz • Happy diz • Happy diz • Happy diz • </h1>
+    </div>
+    <div class="container">
+        <div class="head__section">
+            <div class="mobile__header">
+                <div class="mobile__menu">
+                    <a href="/" class="logo"><img src="img/logo.svg" alt=""></a>
+                    <div class="mobile__burger">
+                        <div class="burger"><span></span></div>
+                    </div>
+                </div>
+                <div class="mobile__link">
+                    <div class="nav__link">
+                        <a href="#services">УСЛУГИ</a>
+                        <a href="#projects">ПРОЕКТЫ</a>
+                        <a href="#contacts">КОНТАКТЫ</a>
+                        <a href="#about">О НАС</a>
+                    </div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="nav__link">
+                    <a href="/" class="logo"><img src="img/logo.svg" alt=""></a>
+                    <a href="#services" class="after">УСЛУГИ</a>
+                    <a href="#projects" class="after">ПРОЕКТЫ</a>
+                    <a href="#contacts" class="after">КОНТАКТЫ</a>
+                    <a href="#about" class="after link-padding">О НАС</a>
+                </div>
+            </header>
+        </div>
+
+        <div class="head__block">
+            <div class="head__bg"></div>
+            <div class="head__blokck-item head__block_left">
+                <h1>Проектируем, продумываем и создаём сайты</h1>
+                <p>Решаем бизнес-задачи клиента посредством создания трендовых, технологичных продуктов, которыми можно
+                    будет пользоваться в долгосрочной перспективе.</p>
+                <a href="#form" class="btn-project btn-project_green">
+                    <span>обсудить проект</span>
+                    <img src="img/arrowTop-white.svg" alt="" class="arrow_top-white">
+                </a>
+            </div>
+            <div class="head__blokck-item head__block_right">
+                <img class="arrow-tegs" src="img/arrow-tags.png" alt="">
+                <img src="img\green-circle.png" alt="" class="green-circle">
+
+            </div>
+        </div>
+        <div class="why__section" id="about">
+            <div class="why__title">
+                <h2>Почему мы?</h2>
+                <p>HappyDiz - крутая и опытная команда, сфокусированная на WEB-разработке и SMM-проектах.</p>
+                <p>Мы не делим проекты на «простые» и «сложные»: мы ориентируемся на потребность клиента, что позволяет
+                    нам решать любые задачи.</p>
+                <p>Наша философия заключается в том, чтобы после работы с нами - заказчик получил максимально удобный
+                    инструмент продаж для своего бизнеса.</p>
+                <p>К любому нашему проекту мы подходим с идеей пользы для клиента - будь это разработка сайта или
+                    ведение страницы в социальных сетях. Добиваемся результата с помощью правильной разработки, анализа
+                    ниши, удобного и функционального дизайна, а также других инструментов.</p>
+                <p>Большие расстояния - не помеха для сотрудничества. Среди наших клиентов компании из различных
+                    регионов нашей страны.</p>
+            </div>
+        </div>
+
+        <div class="services__section" id="services">
+            <h2>Услуги</h2>
+            <div class="services__block-white"></div>
+            <div class="services__block">
+
+                <div class="services__card">
+                    <h3>Дизайн</h3>
+                    <p>Сделаем ваш продукт настолько красивым и удобным, насколько это возможно</p>
+                    <div class="sevices__list">
+                        <ul>
+                            <li>Баннеры для социальных сетей</li>
+                            <li>Оформление групп в ВКонтакте</li>
+                            <li>Продающая инфографика</li>
+                            <li>Уникальный дизайн сайтов</li>
+                        </ul>
+                    </div>
+                    <div class="services__tegs">
+                        <div class="services__tegs-item"><span>UI/UX</span></div>
+                        <div class="services__tegs-item"><span>WEB-дизайн</span></div>
+                        <div class="services__tegs-item"><span>Инфографика</span></div>
+                        <div class="services__tegs-item"><span>Баннеры</span></div>
+
+                    </div>
+                    <div class="zero"></div>
+                    <h4>~ от 2 000 ₽</h4>
+                    <a href="" class="btn-more btn-more_padding">
+                        <span>Узнать подробнее</span>
+                        <img src="img/arrowTop-white.svg" alt="">
+                    </a>
+                </div>
+                <div class="services__card servise__card_black">
+                    <h3>Разработка</h3>
+                    <p>Мы работаем с проектами комплексно и продумываем каждую деталь в процессе проектирования и
+                        разработки сайтов.</p>
+
+
+                    <p> Создаём яркие и продающие сайты <span class="fire">&#128293;</span></p>
+
+
+                    <div class="sevices__list services__list-black">
+                        <ul>
+                            <li>Брифинг и коммерческое предложение</li>
+                            <li>Анализ наших конкурентов</li>
+                            <li>Сбор семантики</li>
+                            <li>Прототипирование и Web-дизайн</li>
+                            <li>Вёрстка и программирование сайтов</li>
+                            <li>Техническая и поисковая оптимизация</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="services__tegs services__tegs_black">
+                        <div class="services__tegs-item services__tegs-item_white"><span>Корпоративные сайты</span>
+                        </div>
+                        <div class="wrap__tegs">
+                            <div class="services__tegs-item services__tegs-item_white"><span>Лендинг</span></div>
+                            <div class="services__tegs-item services__tegs-item_white"><span>Интернет-магазины</span>
+                            </div>
+                        </div>
+
+                        <div class="services__tegs-item services__tegs-item_white"><span>Мобильные приложения</span>
+                        </div>
+                        <div class="services__tegs-item services__tegs-item_white"><span>Сервисы</span></div>
+
+                    </div>
+                    <h4>~ от 45 000 ₽</h4>
+
+                    <a href="" class="btn-more btn-more_padding btn-more_white">
+                        <span>Узнать подробнее</span>
+                        <img src="img/arrowTop-black.svg" alt="">
+                    </a>
+
+                    <!-- <img src="img/color-line.jpg" alt="" class="services__line"> -->
+
+
+                </div>
+                <div class="services__card">
+                    <h3>Сопровождение
+                    </h3>
+                    <p>Помогаем выйти в топ и выделиться среди тысяч поставщиков.</p>
+
+
+                    <p>Даем взрывной рост продаж за счет SEO, контент-маркетинга и управления репутацией. Товаров много
+                        — но мы сделаем так, что купят именно ваш.</p>
+                    </p>
+                    <div class="sevices__list">
+                        <ul>
+                            <li>Аудит карточек товара</li>
+                            <li>Подбор товара выхода на Wildberries</li>
+                            <li>Полная SEO-оптимизация спимания и характеристик</li>
+                            <li>Запуск и корректиррвка рекламных компаний внутр пощадки Wildberries</li>
+                        </ul>
+                    </div>
+
+                    <div class="services__tegs services__tegs_maxw ">
+                        <div class="services__tegs-item"><span>Wildberries</span></div>
+
+                        <div class="services__tegs-item"><span>Оформление магазина</span></div>
+                        <div class="services__tegs-item"><span>Помощь в продвижении</span></div>
+
+                    </div>
+                    <div class="serv__footer">
+
+                    </div>
+                    <h4>~ от 20 000 ₽</h4>
+
+                    <a href="" class="btn-more">
+                        <span>Узнать подробнее</span>
+                        <img src="img/arrowTop-white.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="services__section-mobile" id="services">
+
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide_white">
+                        <h3>Дизайн</h3>
+                        <p>Сделаем ваш продукт настолько красивым и удобным, насколько это возможно</p>
+                        <div class="sevices__list">
+                            <ul>
+                                <li>Баннеры для социальных сетей</li>
+                                <li>Оформление групп в ВКонтакте</li>
+                                <li>Продающая инфографика</li>
+                                <li>Уникальный дизайн сайтов</li>
+                            </ul>
+                        </div>
+                        <div class="services__tegs">
+                            <div class="services__tegs-item"><span>UI/UX</span></div>
+                            <div class="services__tegs-item"><span>WEB-дизайн</span></div>
+                            <div class="services__tegs-item"><span>Инфографика</span></div>
+                            <div class="services__tegs-item"><span>Баннеры</span></div>
+
+                        </div>
+                        <div class="zero"></div>
+                        <h4>~ от 2 000 ₽</h4>
+                        <a href="" class="btn-more btn-more_padding">
+                            <span>Узнать подробнее</span>
+                            <img src="img/arrowTop-white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide_black">
+                        <h3>Разработка</h3>
+                        <p>Мы работаем с проектами комплексно и продумываем каждую деталь в процессе проектирования и
+                            разработки сайтов.</p>
+
+
+                        <p> Создаём яркие и продающие сайты <span class="fire">&#128293;</span></p>
+
+
+                        <div class="sevices__list services__list-black">
+                            <ul>
+                                <li>Брифинг и коммерческое предложение</li>
+                                <li>Анализ наших конкурентов</li>
+                                <li>Сбор семантики</li>
+                                <li>Прототипирование и Web-дизайн</li>
+                                <li>Вёрстка и программирование сайтов</li>
+                                <li>Техническая и поисковая оптимизация</li>
+
+
+                            </ul>
+                        </div>
+
+                        <div class="services__tegs services__tegs_black">
+                            <div class="services__tegs-item services__tegs-item_white"><span>Корпоративные сайты</span>
+                            </div>
+                            <div class="services__tegs-item services__tegs-item_white"><span>Лендинг</span></div>
+                            <div class="services__tegs-item services__tegs-item_white"><span>Интернет-магазины</span>
+                            </div>
+
+
+                            <div class="services__tegs-item services__tegs-item_white"><span>Мобильные приложения</span>
+                            </div>
+                            <div class="services__tegs-item services__tegs-item_white"><span>Сервисы</span></div>
+
+                        </div>
+                        <h4>~ от 45 000 ₽</h4>
+
+                        <a href="" class="btn-more btn-more_padding btn-more_white">
+                            <span>Узнать подробнее</span>
+                            <img src="img/arrowTop-black.svg" alt="">
+                        </a>
+
+                        <!-- <img src="img/color-line.jpg" alt="" class="services__line"> -->
+
+
+                    </div>
+                    <div class="swiper-slide swiper-slide_white">
+                        <h3>Сопровождение
+                        </h3>
+                        <p>Помогаем выйти в топ и выделиться среди тысяч поставщиков.</p>
+
+
+                        <p>Даем взрывной рост продаж за счет SEO, контент-маркетинга и управления репутацией. Товаров
+                            много — но мы сделаем так, что купят именно ваш.</p>
+                        </p>
+                        <div class="sevices__list">
+                            <ul>
+                                <li>Аудит карточек товара</li>
+                                <li>Подбор товара выхода на Wildberries</li>
+                                <li>Полная SEO-оптимизация спимания и характеристик</li>
+                                <li>Запуск и корректиррвка рекламных компаний внутр пощадки Wildberries</li>
+                            </ul>
+                        </div>
+
+                        <div class="services__tegs services__tegs_maxw ">
+                            <div class="services__tegs-item"><span>Wildberries</span></div>
+
+                            <div class="services__tegs-item"><span>Оформление магазина</span></div>
+                            <div class="services__tegs-item"><span>Помощь в продвижении</span></div>
+
+                        </div>
+                        <div class="serv__footer">
+
+                        </div>
+                        <h4>~ от 20 000 ₽</h4>
+                        <div class="zero"></div>
+
+                        <a href="" class="btn-more">
+                            <span>Узнать подробнее</span>
+                            <img src="img/arrowTop-white.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div class="technologysection wf-section">
+            <div class="technology__container w-container">
+                <h2 class="technology__heading">Наши технологии</h2>
+                <section class="accordion">
+
+                    <section class="accordion-tabs">
+                        <div class="header__dots header__dots-technology">
+                            <div class="dots-item dots-item__one"></div>
+                            <div class="dots-item dots-item_two"></div>
+                            <div class="dots-item dots-item_blueviolet dots-item_three"></div>
+                        </div>
+                        <button class="accordion-tab accordion-active" data-actab-group="0"
+                            data-actab-id="0">Developing</button>
+                        <!-- <button class="accordion-tab" data-actab-group="0" data-actab-id="1">Back-end</button> -->
+                        <button class="accordion-tab" data-actab-group="0" data-actab-id="2">Mobile</button>
+                        <button class="accordion-tab" data-actab-group="0" data-actab-id="3">Design</button>
+                    </section>
+                    <section class="accordion-content">
+                        <article class="accordion-item accordion-active" data-actab-group="0" data-actab-id="0">
+
+                            <div class="accordion-item__label accordion-item__container">
+
+                                <div class="item__tegs">
+                                    <div class="tegs__body">
+                                        <img src="img/react-logoc.png" alt="" width="30px">
+                                        <span>React</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/wordpress-logo.png" alt="" width="30px">
+                                        <span>Wordpress</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/seal-color-reversed-c50d9b78.png" alt="" width="30px">
+                                        <span>Sass</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/webflow-logo.png" alt="" width="30px">
+                                        <span>Webflow</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/Tilda_Logo.png" alt="" width="30px">
+                                        <span>Tilda</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/cms.jpg" alt="" width="30px">
+                                        <span>CMS</span>
+                                    </div>
+                                </div>
+                                <div class="accordion__footer">
+                                    <p>Эксперименты и тестирование новых технологий мы оставили для внутренних проектов. В боевых задачах используем только проверенные технологии с доказанной
+                                        эффективностью.</p>
+                                </div>
+                                
+                            </div>
+                        </article>          
+                        <article class="accordion-item" data-actab-group="0" data-actab-id="2">
+                            <p class="accordion-item__label accordion-item__container">
+                                <div class="item__tegs">
+                                    <div class="tegs__body">
+                                        <img src="img/figma-logo.png" alt="">
+                                        <span>figma</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/PS-logo.png" alt="">
+                                        <span>Photoshop</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/Ai-logo.png" alt="">
+                                        <span>Illustrator</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/blender-logo.png" alt="">
+                                        <span>Blender</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/corel-logo.png" alt="">
+                                        <span>CorelDraw</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/corel-logo.png" alt="">
+                                        <span>Procreate</span>
+                                    </div>
+                                </div>
+
+                                <p>Эксперименты и тестирование новых технологий мы оставили для внутренних проектов.
+                                В боевых задачах используем только проверенные технологии с доказанной
+                                    эффективностью.</p>
+                            </div>
+                        </article>
+                        <article class="accordion-item" data-actab-group="0" data-actab-id="3">
+                            <div class="accordion-item__label accordion-item__container">
+                                <div class="item__tegs">
+                                    <div class="tegs__body">
+                                        <img src="img/figma-logo.png" alt="">
+                                        <span>figma</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/PS-logo.png" alt="">
+                                        <span>Photoshop</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/Ai-logo.png" alt="">
+                                        <span>Illustrator</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/blender-logo.png" alt="">
+                                        <span>Blender</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/corel-logo.png" alt="">
+                                        <span>CorelDraw</span>
+                                    </div>
+                                    <div class="tegs__body">
+                                        <img src="img/corel-logo.png" alt="">
+                                        <span>CorelDraw</span>
+                                    </div>
+                                </div>
+
+                                <p>Эксперименты и тестирование новых технологий мы оставили для внутренних проектов.
+                                В боевых задачах используем только проверенные технологии с доказанной
+                                    эффективностью.
+                            </div>
+                        </article>
+                    
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="form__section">
+            <div class="form__title">
+                <h2>Напишите нам.</h2>
+                <h2>Мы поможем решить вашу
+                    задачу</h2>
+                <p>Заполните ваши данные и немного расскажите
+                    о проекте, так мы сможем точнее подготовиться к встрече.</p>
+            </div>
+            <form action="sendmail.php" method="POST" class="form" id="form">
+                
+                <div class="form__header">
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <div class="dots dots__blueviolet"></div>
+                </div>
+                <div class="massage__success">
+                    <p>Ваша заявка успешно отправлена!</p>
+                </div>
+                <div class="form__body">
+                    <input type="text" placeholder="Ваше имя*" class="input req" name="name">
+                    <div class="form__body-item">
+                        <input type="email" placeholder="Email" class="input email email_margin req" name="email">
+                        <input type="tel" placeholder="Телефон" class="input phone req" id="phone" name="phone">
+
+                    </div>
+
+                    <textarea id="" cols="30" rows="10" placeholder="Пару слов о вашем проекте"
+                        name="message"></textarea>
+                </div>
+                <div class="form__footer">
+                    <p class="tegs__title">Меня интересует:</p>
+                    <div class="tegs__block" name="select[]">
+                        <span class="tegs" id="tegs-1">Сайт</span>
+                        <span class="tegs" id="tegs-2">Мобильное приложение</span>
+                        <span class="tegs" id="tegs-3">Техническая поддержка</span>
+                        <span class="tegs" id="tegs-4">Аутсорсинг</span>
+                        <span class="tegs" id="tegs-5">SMM</span>
+                        <span class="tegs" id="tegs-6">Дизайн</span>
+                        <span class="tegs" id="tegs-7">Другое</span>
+                    </div>
+                    <div class="policity__block">
+                        <div class="policity__item">
+                            <input type="checkbox" checked class="input checkbox" name="checkbox" id="checkbox">
+                            <span>Я согласен на <a href="/pages/privacy.html">обработку
+                                    персональных данных</a></span>
+                        </div>
+                        <button class="btn-form" type="submit">Отправить заявку</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="project__section" id="projects">
+            <h2>Проекты</h2>
+            <div class="grid__project">
+                <div class="grid__item grid__maximed">
+                    <p>Максимед. Адаптивный сайт клиники
+                        с высокой скоростью загрузки и высокой
+                        конверсионностью</p>
+                    <img src="/img/maximed.png" alt="">
+                    <div class="tegs">
+                        <div class="tegs-item"><span>Web-разработка</span></div>
+                        <div class="tegs-item"><span>Дизайн</span></div>
+                    </div>
+                </div>
+                <div class="grid__cart">
+                    <div class="grid__item grid__jem">
+                        <p>Жемчуг. Разработка визуальной концепции
+                            для салона ювелирных украшений премиум
+                            класса</p>
+                        <div class="tegs">
+                            <div class="tegs-item tegs-item_white"><span>Дизайн</span></div>
+                            <div class="tegs-item tegs-item_white"><span>SMM</span></div>
+                        </div>
+
+                    </div>
+                    <div class="grid__item grid__media">
+                        <p>Оренбургская Медиа Группа.
+                            Лендинг с высокой скоростью загрузки,
+                            выполнен по главным критериям заказчика</p>
+                        <div class="tegs">
+                            <div class="tegs-item"><span>Дизайн</span></div>
+                            <div class="tegs-item"><span>Web-разработка</span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="grid__item grid__lombard">
+                    <p>Ломбард Первый. Создание креативного дизайна
+                        лэндинга с добавлением индивидуальных
+                        иллюстраций</p>
+                    <div class="tegs">
+                        <div class="tegs-item"><span>Дизайн</span></div>
+                        <div class="tegs-item"><span>Лендинг</span></div>
+                    </div>
+
+                </div>
+                <div class="grid__item grid__decol">
+                    <p>Деколь Мебель.
+                        Адаптивный лэндинг с высокой скоростью
+                        загрузки </p>
+                    <div class="tegs">
+                        <div class="tegs-item tegs-item_white"><span>Дизайн</span></div>
+                        <div class="tegs-item tegs-item_white"><span>Лендинг</span></div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <button class="btn__see" id="moreBtn">Больше проектов</button>
+        </div>
+
+        <div class="contact__section" id="contacts">
+            <h2>Свяжитесь с нами</h2>
+            <div class="block__contacts">
+                <div class="number">
+                    <!-- <a href="tel:79228753690" class="nam__pad">+ 7 922 875 36 90</a>
+                <a href="tel:79228753690" >+ 7 922 875 36 90</a> -->
+
+                </div>
+                <div class="social">
+                    <a href="mailto:info@happydiz.ru">info@happydiz.ru</a>
+                    <div class="contact__social">
+                        <a href=""><img class="icon-size" src="/img/mail.svg" alt=""></a>
+                        <a href=""><img src="/img/telegram.svg" alt=""></a>
+                        <a href=""><img src="/img/whatsapp.svg" alt=""></a>
+                    </div>
+                    <a href="#form" class="btn__green">
+                        <span>связаться</span>
+                        <img src="/img/arrowTop-black.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="block__lineV"></div>
+            <div class="block__services">
+                <div class="block__item">
+                    <a href="#form" class="a-project">
+                        <h3>Обсудить проект</h3>
+                        <img src="/img/arrowTop-blueviolet.svg" alt="arrow">
+                    </a>
+                    <p>Мы сможем предложить лучшее решение с расчетом стоимости и сроков</p>
+                </div>
+                <div class="block__item">
+                    <a href="#services" class="a-project">
+                        <h3>Ознакомиться с услугами</h3>
+                        <img src="/img/arrowTop-blueviolet.svg" alt="arrow">
+                    </a>
+                    <p>У нас широкий спектор услуг, выберите
+                        то, что подходит именно вам</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="contact__social">
+                <a href=""><img class="icon-size" src="/img/free-icon-font-envelope-3916611 2.png" alt=""></a>
+                <a href=""><img src="/img/telegram-svgrepo-com 2.png" alt=""></a>
+                <a href=""><img src="/img/whatsapp-svgrepo-com 2.png" alt=""></a>
+            </div>
+            <a href="/">Политика конфиденциальности </a>
+            <a href="mailto:happydiz©2022">happydiz©2022</a>
+        </div>
+    </div>
+   
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
